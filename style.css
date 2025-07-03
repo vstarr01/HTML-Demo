@@ -13,11 +13,108 @@
 }
 
 
-html {
+html,body{
   height: 100%;
   width: 100%;
+  padding:0;
+  margin:0;
 }
 
 body{
   font-family: DM Serif Text;
+}
+
+#mainHeader{
+  background-color: rgb(255,144,25);
+  margin:0;
+}
+
+nav ul *{
+  padding:.5rem;
+  margin:.5rem;
+}
+
+#brand{
+  background-color: white;
+  border:solid 1px black;
+  border-radius: 5px;
+}
+
+#brand *
+{
+  vertical-align: middle;
+}
+
+#mainNav ul{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top:0;
+}
+
+nav ul{
+  list-style: none;
+}
+
+
+#donateNowButton{
+  background-color: red;
+  color:white;
+  border-radius: 5px;
+}
+
+#divForMainContent{
+  display:flex;
+}
+
+#divForMainContent main{
+  width:75%;
+  border-radius: 5px;
+  padding:2rem;
+  margin-left:4rem;
+  margin-right:4rem;
+}
+
+.paragraph-main-content{
+  margin:5rem;
+  color:#1e5418;
+}
+
+footer{
+  margin:2rem auto;
+  text-align: center;
+}
+
+footer nav ul{
+  margin:2rem;
+}
+
+footer nav ul li{
+  margin: 1rem auto;
+}
+
+footer{
+  padding-bottom:1rem;
+}
+
+aside{
+  margin:4rem;
+  border-right:solid 1px black;
+}
+
+footer header{
+  background-color: rgb(255,144,25);
+  padding:2rem;
+}
+
+#firstFooterNav{
+  width:25%;
+}
+
+a{
+  color:#332d0a;
+  font-weight:900;
+}
+/*margin:1rem;*
 }

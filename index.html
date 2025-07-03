@@ -10,13 +10,15 @@
 
 <body>
 
-  <header>
-    <div>
-      <img src="images/doctor-img.png" width="50" height="50" alt="logo">
-      Doctors without borders
-    </div>
-    <nav>
-      <ul>
+  <header id="mainHeader">
+    <nav id="mainNav">
+      <ul id="mainNavUL">
+        <div id="brand">
+          <a href="">
+             <img src="images/doctor-img.png" width="50" height="50" alt="logo">
+          </a>
+          Doctors without borders
+        </div>
         <li>
           <!-- <label for="ourWork">
             Our Work
@@ -48,7 +50,7 @@
           </form>
         </li>
         <li>
-          <button>
+          <button id="donateNowButton">
             Donate Now!!
           </button>
         </li>
@@ -56,41 +58,49 @@
     </nav>
     <div id="banner"></div>
   </header>
-  
-  <main>
-    <article>
-      We provide independent, impartial, medical humanitarian assistance to the people who need it most
-    </article>
-  </main>
 
-  <aside>
-    <!-- add content here -->
-    <article>
-      <header>
+  <div id="divForMainContent">
+    <aside>
+      <!-- add content here -->
+      <article>
+        <header>
+          <p>
+            <a href="">
+              Our Reach
+            </a>
+          </p>
+          <p>
+            <a href="">
+              How we use Funds
+            </a>
+          </p>
+        </header>
+        <div>
+          <img src="./images/free-location-icon-2952-thumb.png" width="25" height="25" alt="location icon">
+          <span>
+            <strong>
+              72+
+            </strong>
+          </span>
+        </div>
         <p>
-          <a href="">
-            Our Reach
-          </a>
+          <strong>Countries and territories</strong> are home to our humanitarian projects
         </p>
-        <p>
-          <a href="">
-            How we use Funds
-          </a>
+      </article>
+    </aside>
+    <main>
+      <article>
+        <p class="paragraph-main-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-      </header>
-      <div>
-        <img src="./images/free-location-icon-2952-thumb.png" width="25" height="25" alt="location icon">
-        <span>
-          <strong>
-            72+
-          </strong>
-        </span>
-      </div>
-      <p>
-        <strong>Countries and territories</strong> are home to our humanitarian projects
-      </p>
-    </article>
-  </aside>
+        <p class="paragraph-main-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </article>
+    </main>
+
+  </div>
+  
 
   <footer>
     <header>
@@ -98,12 +108,22 @@
         Footer
       </h2>
     </header>
-    <h3>
-      For Donors
-    </h3>
-    <div>
-      <nav>
+    <div class="footerDiv">
+      <nav id="firstFooterNav">
+        <h3>
+          For Donors
+        </h3>
         <ul>
+          <li>
+            <a href="">
+              Donor Services
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Finances and Accountability
+            </a>
+          </li>
           <li>
             <a href="">
               Donor Services
