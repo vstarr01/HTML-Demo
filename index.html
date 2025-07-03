@@ -9,7 +9,330 @@
 </head>
 
 <body>
-  Hello world
+
+  <header>
+    <div>
+      <img src="images/doctor-img.png" width="50" height="50" alt="logo">
+      Doctors without borders
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <!-- <label for="ourWork">
+            Our Work
+          </label>. -->
+          <select id="ourWork">
+            <option value="">
+              Our Work
+            </option>
+            <option value="volunteer">
+              volunteer
+            </option>
+            <option value="humanitarian aid">
+              humanitarian aid
+            </option>
+          </select>
+        </li>
+        <li>
+          <a href="https://google.com" target="_blank">
+            Google Site
+          </a>
+        </li>
+        <li>
+          <form>
+            <input type="text" id="search" name="search">
+            <input type="submit" id="submit" name="submit" value="search">
+            <!-- <button>
+              Search
+            </button> -->
+          </form>
+        </li>
+        <li>
+          <button>
+            Donate Now!!
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div id="banner"></div>
+  </header>
+  
+  <main>
+    <article>
+      We provide independent, impartial, medical humanitarian assistance to the people who need it most
+    </article>
+  </main>
+
+  <aside>
+    <!-- add content here -->
+    <article>
+      <header>
+        <p>
+          <a href="">
+            Our Reach
+          </a>
+        </p>
+        <p>
+          <a href="">
+            How we use Funds
+          </a>
+        </p>
+      </header>
+      <div>
+        <img src="./images/free-location-icon-2952-thumb.png" width="25" height="25" alt="location icon">
+        <span>
+          <strong>
+            72+
+          </strong>
+        </span>
+      </div>
+      <p>
+        <strong>Countries and territories</strong> are home to our humanitarian projects
+      </p>
+    </article>
+  </aside>
+
+  <footer>
+    <header>
+      <h2>
+        Footer
+      </h2>
+    </header>
+    <h3>
+      For Donors
+    </h3>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <a href="">
+              Donor Services
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Finances and Accountability
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- <h1>
+    Hello World!!
+  </h1>
+  <h2>
+    Hello World!!
+  </h2>
+  <h3>
+    Hello World!!
+  </h3>
+  <h4>
+    Hello World!!
+  </h4>
+  <h5>
+    Hello World!!
+  </h5>
+  <h6>
+    Hello World!!
+  </h6> -->
+
+  <!-- <section>
+    <header>
+      <h2>
+        Example Table
+      </h2>
+    </header>
+    <table border="1">
+      <tr>
+        <th>
+
+        </th>
+        <th>
+          Column 1
+        </th>
+        <th>
+          Column 2
+        </th>
+        <th>
+          Column 3
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Row 1
+        </th>
+        <!-- <td colspan="2"> -->
+  <!-- <td>
+          11
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          13
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Row 2
+        </th>
+        <td>
+          21
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          23
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Row 3
+        </th>
+        <td>
+          31
+        </td>
+        <td>
+          32
+        </td>
+        <td>
+          33
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <header>
+      <h2>
+        Unordered List
+      </h2>
+    </header>
+    <ul>
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+      <li>
+        Item 3
+      </li>
+      <li>
+        Coffee
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <header>
+      <h2>
+        Ordered List
+      </h2>
+    </header>
+    <ol type="A">
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+      <li>
+        Item 3
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <header>
+      <h2>
+        Embedded List
+      </h2>
+    </header>
+    <ol type="1">
+      <li>
+        Item 1
+        <ol type="A">
+          <li>
+            Item 1A
+          </li>
+          <li>
+            Item 1B
+          </li>
+        </ol>
+      </li>
+      <li>
+        Item 2
+        <ol>
+          <li>
+            Item 2A
+          </li>
+          <li>
+            Item 2B
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <header>
+      <h2>
+        Description List
+      </h2>
+    </header>
+    <dl>
+      <dt>
+        Description Term 1
+      </dt>
+      <dd>
+        - This is description term 1
+      </dd>
+      <dt>
+        Description Term 2
+      </dt>
+      <dd>
+        - This is description term 2
+      </dd>
+    </dl>
+  </section>
+
+  <section>
+    <img src="./images/man-se-sm.jpeg" width="200" height="200" alt="a young man">
+  </section>
+
+  <section>
+    <header>
+      <h2>
+        Form Example
+      </h2>
+      <form>
+        <legend>
+          Example Form
+        </legend>
+
+          <div>
+            <label for="name">
+              Name:
+            </label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div>
+            <label for="password">
+              Password:
+            </label>
+            <input type="password" id="password" name="password">
+          </div>
+
+        <input type="submit" id="submit" name="submit">
+      </form>
+    </header>
+  </section> -->
+
+
   <script src="script.js"></script>
 </body>
 
